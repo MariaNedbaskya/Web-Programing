@@ -17,7 +17,7 @@ public class Kata
             int digit = numberString[i] - '0';
             long positionValue = (long)Math.Pow(10, numberString.Length - 1 - i); 
             
-            if (digit != 0) // Если цифра не ноль  
+            if (digit != 0)
             {  
                 if (parts.Length > 0)  
                 {  
