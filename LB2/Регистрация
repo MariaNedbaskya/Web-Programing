@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h3>Форма регистрации</h3>
+    <div>
+        <form name="form1" onsubmit="return validateForm();" action="C:\Users\User\Desktop\вход.html">
+            E-mail: <input type="email" name="email" required>
+            <br>
+            Пароль: <input type="password" maxlength="10" name="pass" required>
+            <br>
+            Повтор пароля: <input type="password" maxlength="10" name="passret" required>
+            <br>
+            С условиями организации ознакомлен
+            <input type="checkbox" name="terms" value="yes" checked>
+            <br>
+            <input type="reset" value="Очистить">
+            <button type="submit">Завершить</button>
+        </form>
+    </div>
+    <script>
+        function validateForm() {
+            var password = document.forms["form1"]["pass"].value;
+            var confirmPassword = document.forms["form1"]["passret"].value;
+            var termsAccepted = document.forms["form1"]["terms"].checked;  
+            if (password !== confirmPassword) {
+                alert("Пароли не совпадают. Пожалуйста, попробуйте снова.");
+                return false;
+            }
+            return true;
+    </script>
+</body>
+</html>
