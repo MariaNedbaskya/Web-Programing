@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h3>Вход</h3>
+    <div>
+        <form name="form1" onsubmit="return validateForm();" action="file:///C:/Users/User/Desktop/страница.html">
+            E-mail: <input type="email" name="email" required>
+            <br>
+            Пароль: <input type="password" maxlength="10" name="pass" required>
+            <br>
+            <input type="reset" value="Очистить">
+            <button type="submit">Завершить</button>
+        </form>
+    </div>
+</body>
+</html>
