@@ -1,0 +1,34 @@
+
+h3 {
+    color: #d00000;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    width: 50%;
+    font-weight: bold;
+}
+div {
+    text-align: left;
+}
+input[type="email"] {
+    padding: 10px;
+    border: 1px solid #5bb1ff;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+    input[type="email"]:focus {
+        outline: none;
+        border-color: #007bff;
+        background-color: #f0f8ff;
+    }
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #f99090;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+    input[type="password"]:focus {
+        outline: none;
+        border-color: #d00000;
+        background-color: #ffe4e4;
+    }
