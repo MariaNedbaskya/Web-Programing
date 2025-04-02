@@ -1,0 +1,20 @@
+{
+  "name": "modules_l4",
+  "version": "1.0.0",
+  "main": "index.js",
+ "scripts": {
+    "build": "set NODE_ENV=production&& node src/index.js",
+    "start": "set NODE_ENV=development&& node src/index.js",
+    "deploy": "set NODE_ENV=domain&& node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "datenv": "^0.0.0",
+    "nodemon": "^3.1.9"
+  }
+}
