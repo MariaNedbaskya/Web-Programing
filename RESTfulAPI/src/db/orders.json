@@ -1,0 +1,17 @@
+{
+    "orders": [
+      {
+        "id": "9z8y7x6w-5v4u-3t2s-1r0q-9p8o7n6m5l4k",
+        "customerName": "John Doe",
+        "items": [
+          {
+            "medicineId": "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p",
+            "quantity": 2
+          }
+        ],
+        "totalPrice": 11.98,
+        "isPaid": false,
+        "orderDate": "05/01/2023, 10:30:00 AM"
+      }
+    ]
+  }
