@@ -1,0 +1,7 @@
+{
+    "users":
+    [
+        {"id": 1, "game": "dota2", "count": 10, "data":"13.10.2010"},
+        {"id": 1, "game": "bioshock2", "count": 15, "data":"09.02.2010"}
+    ]
+}
